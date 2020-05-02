@@ -17,6 +17,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/article")
+@CrossOrigin  //@CrossOrigin 支持跨域
 public class ArticleController {
     @Autowired
     private ArticleService articleService;

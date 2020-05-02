@@ -27,11 +27,14 @@ public class commentController {
         String userId ="456";
         Object flag = redisTemplate.opsForValue().get("thumbup_" + userId + "_" + commentId);
         if (flag==null){
-            commentService.thumbup(commentId);
+            commentService.thumbup(commentId,1);
             redisTemplate.opsForValue().set("thumbup_" + userId + "_" + commentId,1);
-            return new Result(true,StatusCode.OK,"成功");
+            return new Result(true,StatusCode.OK,"点赞成功");
+        }else{
+            commentService.thumbup(commentId,-1);
+            redisTemplate.opsForValue().set("thumbup_" + userId + "_" + commentId,null);
+            return new Result(true,StatusCode.OK,"点赞取消");
         }
-            return new Result(true,StatusCode.REPERROR,"重复点赞");
     }
 
     @GetMapping("findall")

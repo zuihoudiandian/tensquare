@@ -5,7 +5,7 @@ spring:
     name: tensquare-article #服务名称
   datasource: # 数据库连接四大属性
     type: com.alibaba.druid.pool.DruidDataSource
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://101.132.161.32:33306/tensquare_article?characterEncoding=utf-8&serverTimezone=Asia/Shanghai&useSSL=false
     username: root
     password: 123456
@@ -38,13 +38,19 @@ spring:
     port: 63799
     timeout: 5000
 
-
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:6868/eureka/
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
 
 
 mybatis-plus:
 #  mapper-locations: classpath:/mapper/*Mapper.xml
   #实体扫描，多个package用逗号或者分号分隔
-  typeAliasesPackage: com.tensquare.article.pojo
+  typeAliasesPackage: com.demo.article.pojo
   configuration:
     cache-enabled: true #配置的缓存的全局开关
     aggressive-lazy-loading: true #延时加载的开关

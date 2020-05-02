@@ -61,7 +61,7 @@ public class commentService {
        return commentRepository.findByArticleid(articleId);
     }
 
-    public void thumbup(String commentId) {
+    public void thumbup(String commentId,Integer thumbupNumber) {
 //        Comment comment = commentRepository.findById(commentId).get();
 //        comment.setThumbup(comment.getThumbup()+1);
         //commentRepository.save(comment);
@@ -76,7 +76,7 @@ public class commentService {
         //封装修改的数值
         Update update = new Update();
         //使用inc列值增长
-        update.inc("thumbup", 1);
+        update.inc("thumbup", thumbupNumber);
 
         //直接修改数据
         //第一个参数是修改的条件

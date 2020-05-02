@@ -1,7 +1,207 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SSM:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3542a1b4-2b3f-4cf7-aefc-260118d2210a" name="Default Changelist" comment="" />
+    <list default="true" id="3542a1b4-2b3f-4cf7-aefc-260118d2210a" name="Default Changelist" comment="十次方">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/src/main/java/controller/ChatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/src/main/java/controller/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/src/main/java/controller/Pic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/src/main/java/interceptor/LoginIntercepter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/src/main/java/mapper/LoginMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/src/main/java/po/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/src/main/java/po/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/src/main/java/po/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/src/main/java/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/src/main/java/service/impl/LoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/src/main/java/web/AuthImg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/src/main/java/websocket/HandShake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/src/main/java/websocket/MyWebSocketHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/src/main/java/websocket/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/src/main/resources/conf/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/src/main/resources/conf/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/src/main/resources/conf/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/src/main/resources/conf/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/src/main/resources/mapper/LoginMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/src/main/webapp/WEB-INF/content/chatroom.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/src/main/webapp/WEB-INF/content/fail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/src/main/webapp/WEB-INF/content/failcode.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/src/main/webapp/WEB-INF/content/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/src/main/webapp/css/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/src/main/webapp/css/jquery.bootgrid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/src/main/webapp/js/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/src/main/webapp/js/jquery-1.12.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/src/main/webapp/js/jquery.bootgrid.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/src/main/webapp/uploadfiles/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/classes/conf/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/classes/conf/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/classes/conf/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/classes/conf/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/classes/controller/ChatController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/classes/controller/Login.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/classes/controller/Pic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/classes/interceptor/LoginIntercepter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/classes/mapper/LoginMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/classes/mapper/LoginMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/classes/po/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/classes/po/Staff.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/classes/po/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/classes/service/LoginService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/classes/service/impl/LoginServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/classes/web/AuthImg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/classes/websocket/HandShake.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/classes/websocket/MyWebSocketHandler$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/classes/websocket/MyWebSocketHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/classes/websocket/WebSocketConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/content/chatroom.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/content/fail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/content/failcode.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/content/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/aspectjweaver-1.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/c3p0-0.9.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/c3p0-0.9.5-pre2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/commons-codec-1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/commons-lang3-3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/fastjson-1.1.29.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/gson-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/jackson-annotations-2.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/jackson-core-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/jackson-databind-2.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/javassist-3.11.0.GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/jsqlparser-0.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/log4j-1.2.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/mchange-commons-java-0.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/mybatis-3.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/mybatis-spring-1.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/mysql-connector-java-5.1.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/ognl-3.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/pagehelper-4.1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/poi-3.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/quartz-2.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/quartz-jobs-2.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/slf4j-api-1.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/slf4j-log4j12-1.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/spring-aop-4.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/spring-beans-4.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/spring-context-4.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/spring-context-support-4.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/spring-core-4.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/spring-expression-4.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/spring-jdbc-4.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/spring-messaging-4.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/spring-orm-4.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/spring-tx-4.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/spring-web-4.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/spring-webmvc-4.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/lib/spring-websocket-4.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/css/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/css/jquery.bootgrid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/js/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/js/jquery-1.12.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/js/jquery.bootgrid.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/uploadfiles/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/classes/conf/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/classes/conf/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/classes/conf/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/classes/conf/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/classes/controller/ChatController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/classes/controller/Login.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/classes/controller/Pic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/classes/interceptor/LoginIntercepter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/classes/mapper/LoginMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/classes/mapper/LoginMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/classes/po/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/classes/po/Staff.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/classes/po/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/classes/service/LoginService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/classes/service/impl/LoginServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/classes/web/AuthImg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/classes/websocket/HandShake.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/classes/websocket/MyWebSocketHandler$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/classes/websocket/MyWebSocketHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-websocket/target/classes/websocket/WebSocketConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_encrypt/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_encrypt/src/main/java/com/tensquare/encrypt/EncryptApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_encrypt/src/main/java/com/tensquare/encrypt/filter/RSARequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_encrypt/src/main/java/com/tensquare/encrypt/rsa/Base64Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_encrypt/src/main/java/com/tensquare/encrypt/rsa/RSA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_encrypt/src/main/java/com/tensquare/encrypt/rsa/RsaKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_encrypt/src/main/java/com/tensquare/encrypt/rsa/mBase64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_encrypt/src/main/java/com/tensquare/encrypt/service/RsaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_encrypt/src/main/java/com/tensquare/encrypt/service/RsaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_encrypt/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_encrypt/src/test/java/EncryptTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_encrypt/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_encrypt/target/classes/com/tensquare/encrypt/EncryptApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_encrypt/target/classes/com/tensquare/encrypt/rsa/Base64Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_encrypt/target/classes/com/tensquare/encrypt/rsa/RSA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_encrypt/target/classes/com/tensquare/encrypt/rsa/RsaKeys.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_encrypt/target/classes/com/tensquare/encrypt/rsa/mBase64.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_encrypt/target/classes/com/tensquare/encrypt/service/RsaService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_encrypt/target/classes/com/tensquare/encrypt/service/RsaServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_eureka/src/main/java/com/tensquare/eureka/EurekaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_eureka/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_eureka/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_eureka/target/classes/com/tensquare/eureka/EurekaApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_eureka/tensquare_eureka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/userApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_user/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_user/src/main/resources/static/WebIMConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_user/src/main/resources/static/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_user/src/main/resources/static/js/EMedia_x1v1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_user/src/main/resources/static/js/jquery-1.12.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_user/src/main/resources/static/js/webimSDK3.0.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_user/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_user/target/classes/com/tensquare/user/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_user/target/classes/com/tensquare/user/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_user/target/classes/com/tensquare/user/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_user/target/classes/com/tensquare/user/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_user/target/classes/com/tensquare/user/userApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_user/target/classes/static/WebIMConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_user/target/classes/static/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_user/target/classes/static/js/EMedia_x1v1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_user/target/classes/static/js/jquery-1.12.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_user/target/classes/static/js/webimSDK3.0.4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo_demo/mongo_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_encrypt/tensquare_encrypt.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo_demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo_demo/src/test/java/test/mongo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo_demo/target/test-classes/test/mongo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_article/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_article/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_article/src/main/java/com/demo/article/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/demo/article/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_article/src/main/java/com/demo/article/controller/commentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/demo/article/controller/commentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_article/src/main/java/com/demo/article/service/commentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/demo/article/service/commentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_article/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_article/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_article/target/classes/META-INF/additional-spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-websocket/target/Spring-websocket/WEB-INF/logs/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_article/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_article/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_article/target/classes/com/demo/article/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_article/target/classes/com/demo/article/controller/ArticleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_article/target/classes/com/demo/article/controller/commentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_article/target/classes/com/demo/article/controller/commentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_article/target/classes/com/demo/article/pojo/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_article/target/classes/com/demo/article/pojo/Comment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_article/target/classes/com/demo/article/service/commentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_article/target/classes/com/demo/article/service/commentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_common/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,12 +224,27 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\java-file\tensquare_parent\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -40,7 +255,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1b9cMwgqjUHerihXWIKBrLShNx0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,48 +266,52 @@
     <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cluoddemo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tensquare.user" />
       <recent name="com.demo.article.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\java-file\tensquare_parent\tensquare_article\src\main\java\com\demo\article\controller" />
-      <recent name="F:\java-file\tensquare_parent\ensquare_article\src\main\java\com\tensquare\article\config" />
-      <recent name="F:\java-file\tensquare_parent\ensquare_article\src\main\java\com\tensquare\article\controller" />
-      <recent name="F:\java-file\tensquare_parent\ensquare_article\src\main\java\com\tensquare\article\service" />
-      <recent name="F:\java-file\tensquare_parent\ensquare_article\src\main\java\com\tensquare\article\pojo" />
+      <recent name="F:\java-file\tensquare_parent\tensquare_encrypt\src\main\java\com\tensquare\encrypt" />
+      <recent name="F:\java-file\tensquare_parent\tensquare_user\src\main\resources\static\js" />
+      <recent name="F:\java-file\tensquare_parent\tensquare_user\src\main\resources\static" />
+      <recent name="F:\java-file\tensquare_parent\tensquare_user\src\main\resources" />
+      <recent name="F:\java-file\tensquare_parent\Spring-websocket\src\main\java\controller" />
     </key>
   </component>
   <component name="RestServicesNavigator">
     <treeState>
       <expand>
         <path>
-          <item name="Found 13 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="Found 21 services " type="fcff1e1b:RestServiceStructure$RootNode" />
         </path>
         <path>
-          <item name="Found 13 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="Found 21 services " type="fcff1e1b:RestServiceStructure$RootNode" />
           <item name="ensquare_article" type="c588b436:RestServiceStructure$ProjectNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.EncryptApplication">
     <configuration name="ArticleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="ensquare_article" />
       <extension name="coverage">
@@ -100,13 +321,134 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.article.ArticleApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EncryptApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="tensquare_encrypt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tensquare.encrypt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tensquare.encrypt.EncryptApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="tensquare_eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tensquare.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tensquare.eureka.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="userApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="tensquare_user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tensquare.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tensquare.user.userApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="websocket" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M17" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="SSM:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Spring-websocket" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SSM_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64659" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SSM:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.EurekaApplication" />
+      <item itemvalue="Spring Boot.EncryptApplication" />
+      <item itemvalue="Spring Boot.ArticleApplication" />
+      <item itemvalue="Spring Boot.userApplication" />
+      <item itemvalue="Tomcat Server.websocket" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ArticleApplication" />
+        <item itemvalue="Spring Boot.userApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -140,98 +482,139 @@
       <workItem from="1588085557254" duration="116000" />
       <workItem from="1588088151587" duration="352000" />
       <workItem from="1588118691502" duration="28455000" />
-      <workItem from="1588175380050" duration="239000" />
+      <workItem from="1588175380050" duration="993000" />
+      <workItem from="1588205145203" duration="3032000" />
+      <workItem from="1588208216807" duration="4104000" />
+      <workItem from="1588213630926" duration="14171000" />
+      <workItem from="1588460919336" duration="34000" />
+      <workItem from="1588462138054" duration="331000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="十次方" />
+    <option name="LAST_COMMIT_MESSAGE" value="十次方" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="590" y="138" key="#EncryptApplication" timestamp="1588232362051">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="590" y="138" key="#EncryptApplication/0.0.1920.1040@0.0.1920.1040" timestamp="1588232362051" />
     <state x="552" y="178" key="#Inspections" timestamp="1588054587017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1588054587017" />
+    <state x="552" y="178" key="#Notifications" timestamp="1588176141088">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1588176141088" />
     <state x="552" y="178" key="#Project_Structure" timestamp="1588052982623">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1588052982623" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588148497399">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588230643634">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588148497399" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588230643634" />
+    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1588238620213">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1588238620213" />
+    <state x="689" y="302" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1588230495754">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="689" y="302" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588230495754" />
     <state x="760" y="436" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1588054211473">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="760" y="436" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588054211473" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1588175600775">
+    <state x="507" y="24" key="CommitChangelistDialog2" timestamp="1588175798300">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588175600775" />
-    <state width="1877" height="251" key="GridCell.Tab.0.bottom" timestamp="1588175103006">
+    <state x="507" y="24" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588175798300" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1588233690396">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="251" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588175103006" />
-    <state width="1877" height="251" key="GridCell.Tab.0.center" timestamp="1588175103006">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588233690396" />
+    <state x="809" y="410" width="302" height="282" key="Github.ShareDialog" timestamp="1588176288773">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="251" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588175103006" />
-    <state width="1877" height="251" key="GridCell.Tab.0.left" timestamp="1588175103005">
+    <state x="809" y="410" width="302" height="282" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588176288773" />
+    <state x="673" y="139" key="Github.UntrackedFilesDialog" timestamp="1588176335716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="251" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588175103005" />
-    <state width="1877" height="251" key="GridCell.Tab.0.right" timestamp="1588175103006">
+    <state x="673" y="139" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588176335716" />
+    <state width="1877" height="248" key="GridCell.Tab.0.bottom" timestamp="1588239551955">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="251" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588175103006" />
-    <state width="1877" height="251" key="GridCell.Tab.1.bottom" timestamp="1588175103006">
+    <state width="1877" height="248" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588239551955" />
+    <state width="1877" height="248" key="GridCell.Tab.0.center" timestamp="1588239551955">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="251" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588175103006" />
-    <state width="1877" height="251" key="GridCell.Tab.1.center" timestamp="1588175103006">
+    <state width="1877" height="248" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588239551955" />
+    <state width="1877" height="248" key="GridCell.Tab.0.left" timestamp="1588239551955">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="251" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588175103006" />
-    <state width="1877" height="251" key="GridCell.Tab.1.left" timestamp="1588175103006">
+    <state width="1877" height="248" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588239551955" />
+    <state width="1877" height="248" key="GridCell.Tab.0.right" timestamp="1588239551955">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="251" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588175103006" />
-    <state width="1877" height="251" key="GridCell.Tab.1.right" timestamp="1588175103006">
+    <state width="1877" height="248" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588239551955" />
+    <state width="1877" height="248" key="GridCell.Tab.1.bottom" timestamp="1588239551955">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="251" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588175103006" />
-    <state width="1877" height="317" key="GridCell.Tab.2.bottom" timestamp="1588175101687">
+    <state width="1877" height="248" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588239551955" />
+    <state width="1877" height="248" key="GridCell.Tab.1.center" timestamp="1588239551955">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="317" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588175101687" />
-    <state width="1877" height="317" key="GridCell.Tab.2.center" timestamp="1588175101686">
+    <state width="1877" height="248" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588239551955" />
+    <state width="1877" height="248" key="GridCell.Tab.1.left" timestamp="1588239551955">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="317" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588175101686" />
-    <state width="1877" height="317" key="GridCell.Tab.2.left" timestamp="1588175101686">
+    <state width="1877" height="248" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588239551955" />
+    <state width="1877" height="248" key="GridCell.Tab.1.right" timestamp="1588239551955">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="317" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588175101686" />
-    <state width="1877" height="317" key="GridCell.Tab.2.right" timestamp="1588175101686">
+    <state width="1877" height="248" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588239551955" />
+    <state width="1877" height="316" key="GridCell.Tab.2.bottom" timestamp="1588239551946">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="317" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588175101686" />
+    <state width="1877" height="316" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588239551946" />
+    <state width="1877" height="316" key="GridCell.Tab.2.center" timestamp="1588239551946">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="316" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588239551946" />
+    <state width="1877" height="316" key="GridCell.Tab.2.left" timestamp="1588239551946">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="316" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588239551946" />
+    <state width="1877" height="316" key="GridCell.Tab.2.right" timestamp="1588239551946">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="316" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588239551946" />
     <state x="540" y="254" key="IDE.errors.dialog" timestamp="1588127627202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="254" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588127627202" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1588077139922">
+    <state x="600" y="137" key="NewModule_or_Project.wizard" timestamp="1588207844752">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588077139922" />
+    <state x="600" y="137" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1588207844752" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1588230353081">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588230353081" />
     <state width="515" height="540" key="SwitcherDM" timestamp="1588157381338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="515" height="540" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1588157381338" />
-    <state x="334" y="126" key="new project wizard" timestamp="1588125992409">
+    <state x="334" y="126" key="new project wizard" timestamp="1588230959690">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="126" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1588125992409" />
+    <state x="334" y="126" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1588230959690" />
     <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1588122058547">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
