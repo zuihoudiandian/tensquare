@@ -2,7 +2,7 @@ server:
   port: 9008 # 服务访问端口号
 spring:
   application:
-    name: tensquare-article #服务名称
+    name: tensquare-user #服务名称
   datasource: # 数据库连接四大属性
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -37,6 +37,14 @@ spring:
     port: 63799
     timeout: 5000
 
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:6868/eureka/
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
 
 
 

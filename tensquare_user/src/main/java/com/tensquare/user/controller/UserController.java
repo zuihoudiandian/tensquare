@@ -17,10 +17,9 @@ import org.springframework.web.bind.annotation.*;
 public class UserController {
     @Autowired
     private UserService userService;
-    @GetMapping("{userId}")
+    @GetMapping("/{userId}")
     public Result selectById(@PathVariable String userId){
         User user = userService.selectById(userId);
         return new Result(true, StatusCode.OK,"查询成功",user);
-
     }
 }

@@ -37,6 +37,13 @@ spring:
     password: 791671@qq.com
     port: 63799
     timeout: 5000
+  rabbitmq:
+    host: 101.132.161.32
+    password: admin
+    port: 5672
+    username: admin
+#    virtual-host: myHost
+
 
 eureka:
   client:
@@ -56,4 +63,5 @@ mybatis-plus:
     aggressive-lazy-loading: true #延时加载的开关
     multiple-result-sets-enabled: true #开启延时加载，否则按需加载属性
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  #打印sql语句,调试用
+    map-underscore-to-camel-case: false  #关闭数据库表下划线映射
 
